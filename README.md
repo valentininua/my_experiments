@@ -1,14 +1,19 @@
-Документация 
+**Документация**
 
-composer install  - установит пакеты
+    composer install  - установит пакеты
 
-docker-compose up -  установит PostgreSQL
+    docker-compose up -  установит PostgreSQL
 
-src/CoinDomain/Infrastructure/Config/config.ini - наш конфиг с выбором драйвера
+    src/CoinDomain/Infrastructure/Config/config.ini - наш конфиг с выбором драйвера
 
-src/CoinDomain/Infrastructure/Db/DbConfig.php - подключение  к базе
+    src/CoinDomain/Infrastructure/Db/DbConfig.php - подключение  к базе
 
-make currency - запустить команду по скачиванию 
+    make currency - запустить команду по скачиванию 
 
-в папке doc - приблизительная блок-схема 
+**Блок  схема**
 
+![Screenshot](doc/block.png)
+
+**Пример работы**
+
+![Screenshot](doc/example.png)
