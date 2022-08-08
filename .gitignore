@@ -1,0 +1,10 @@
+###> files ###
+/var/
+/tmp/
+/vendor/
+/.idea/
+.phpunit.result.cache
+/phpunit.xml
+/phpunit.xml
+.phpunit.result.cache
+/docker/postgres/dbdata/
