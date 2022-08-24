@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace Bot\CoinDomain\Command\Infrastructure\Http;
@@ -17,5 +18,4 @@ class HttpClient
 
         return ['response' => $response, 'httpcode' => $httpcode];
     }
-
 }

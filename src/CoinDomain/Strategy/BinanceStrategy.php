@@ -1,11 +1,12 @@
 <?php
+
 declare(strict_types=1);
 
 namespace Bot\CoinDomain\Strategy;
 
 use Bot\CoinDomain\Command\Infrastructure\Http\HttpClient;
-use \RuntimeException;
-use \JsonException;
+use RuntimeException;
+use JsonException;
 use Bot\CoinDomain\Dto\CurrencyDto;
 
 class BinanceStrategy implements StrategyInterface
@@ -15,8 +16,7 @@ class BinanceStrategy implements StrategyInterface
     public function __construct(
         private ?string $currency,
         private ?string $driver,
-    )
-    {
+    ) {
     }
 
     /**

@@ -11,5 +11,4 @@ class BinanceStrategyTest extends TestCase
     {
         $this->assertTrue(true);
     }
-
 }

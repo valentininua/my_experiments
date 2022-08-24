@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace Bot\CoinDomain;
@@ -28,6 +29,4 @@ class CoinAggregateRoot
 
         $this->coinRepository->recordThat($unitCoin);
     }
-
-
 }

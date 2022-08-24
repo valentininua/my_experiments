@@ -1,14 +1,14 @@
 <?php
+
 declare(strict_types=1);
 
 namespace Bot\CoinDomain\Infrastructure\Db;
 
-use \Exception;
+use Exception;
 
 class Database implements DbConfig
 {
-
-    static private $instance;
+    private static $instance;
     private $db = null;
 
     public static function getInstance()

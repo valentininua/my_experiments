@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace Bot\CoinDomain\Strategy;
@@ -7,7 +8,6 @@ use Bot\CoinDomain\Dto\CurrencyDto;
 
 class Context
 {
-
     private $strategy;
 
     /**

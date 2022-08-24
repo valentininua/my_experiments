@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace Bot\CoinDomain\Strategy;
@@ -14,8 +15,7 @@ class BitfinexStrategy implements StrategyInterface
     public function __construct(
         private ?string $currency,
         private ?string $driver,
-    )
-    {
+    ) {
     }
 
     /**
@@ -30,6 +30,7 @@ class BitfinexStrategy implements StrategyInterface
         }
         $response = json_decode($httpClient['response'], false, 512, JSON_THROW_ON_ERROR);
 
-        return (new CurrencyDto())->setCurrency($this->currency)->setAmount((float)$response->last_price)->setDriver($this->driver);;
+        return (new CurrencyDto())->setCurrency($this->currency)->setAmount((float)$response->last_price)->setDriver($this->driver);
+        ;
     }
 }

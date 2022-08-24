@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace Bot\CoinDomain\Repository;
@@ -36,5 +37,4 @@ class CoinEventStoreRepository
     {
         return 'read from Memcache';
     }
-
 }
